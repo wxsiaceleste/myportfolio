@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Wen Xin | Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">My Portfolio</a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Work Experience</a></li>
+                    <li class="nav-item"><a href="#certificates" class="nav-link">Certificates</a></li>
+                    <li class="nav-item"><a href="#overseas" class="nav-link">Overseas</a></li>
+                    <li class="nav-item"><a href="#cca" class="nav-link">CCA</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Wen Xin</span></h1>
+                <p class="hero-subtitle">Student at the Singapore University of Technology & Design</p>
+                <p class="hero-description">
+                    I'm passionate about creating solutions that address real-world problems — and making the experience of using them genuinely better. Currently pursuing a Bachelor of Engineering in Computer Science & Design, with plans to minor in Healthcare Informatics. My goal is to build digital tools that don't just work well — but feel good to use and make a real difference.
+                    I've picked up Python, Java, JavaScript, SQL, UI/UX design, Linux, and GitHub. Projects I've worked on range from a digital forensics case study generator to a gamified productivity app, and even an interactive storage system. Along the way, I received the Edusave Skills Award in 2024, in recognition of my abilities and commitment to continuous learning.
+                    I'm excited to keep learning, experimenting, and building tools that solve real problems and create better everyday experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/LinkedInPhoto.png" alt="Profile Photo" class="profile-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="text-block">
+                    <div class="about-text">
+                        <p>
+                            I'm someone who finds joy in figuring things out — whether it's untangling a UI that doesn't feel right or rethinking how data should flow under the hood. 
+                            What started as curiosity about how apps are built has grown into a genuine interest in designing solutions that sit at the crossroads of technology, health, and everyday human experience.
+                        </p>
+                        <p>
+                            I enjoy the full process — from rough sketches and prototypes to writing code and refining based on feedback. 
+                            My projects reflect that range: a digital forensics case study generator, a gamified productivity app, and a gesture-triggered automated storage system built with Arduino and repurposed materials — hardware, not code, but every bit as much a design problem.
+                        </p>
+                        <p>
+                            As I grow, I'm drawn toward AI, data science, software engineering, and UI/UX — areas where I can blend analytical thinking with design sensibility to build things that are both smart and intuitive. 
+                            I'm still exploring where I'll specialise, but I know the work I want to do is purposeful, people-centred, and grounded in real needs.
+                        </p>
+                        <p>
+                            Prior to SUTD, I completed a Diploma in Cybersecurity & Digital Forensics at Temasek Polytechnic — a foundation that sharpened my analytical thinking and gave me hands-on technical experience. 
+                            That's what drives me now — and why I'm pursuing a BEng in Computer Science & Design with a minor in Healthcare Informatics, with my sights set on AI, data science, and the intersection of technology and health.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>2</h3>
+                                <p>Years of Study</p>
+                            </div>
+                            <div class="stat">
+                                <h3>16</h3>
+                                <p>Modules Completed</p>
+                            </div>
+                            <div class="stat">
+                                <h3>6</h3>
+                                <p>Projects Completed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages & Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 65%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Spring Boot</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 65%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Linux</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">GitHub</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Adobe XD</span>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-mobile-alt"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tasktails</h3>
+                        <p>Existing productivity apps often struggle to keep users engaged — without meaningful feedback or rewards, motivation fades fast. Tasktails tackles this by tying task completion to a gamified reward system: finish your tasks, earn points, level up, and build streaks. Those rewards feed into a gacha mechanic that lets users unlock virtual pets, making the experience genuinely fun to come back to. Built with Spring Boot and PostgreSQL, the app runs on a REST API backend where reward points are triggered by task completion events. Tasktails is designed with university students in mind — people who want a more engaging way to stay on top of their responsibilities without it feeling like a chore.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">XML</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">JWT</span>
+                            <span class="tech-tag">Retrofit</span>
+                            <span class="tech-tag">Gson</span>
+                            <span class="tech-tag">GitHub</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://youtu.be/AWLyUZAlcI8?si=7trkQBJW9ahKUXQi" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-youtube"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fa-solid fa-cloud-rain"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>FromScrap</h3>
+                        <p>A kinetic interactive display built entirely from salvaged scrapyard materials. Designed to address clutter and material waste in the school's Fab Lab, the installation uses a 4x4 grid of IR sensors and servo motors to create dynamic up-and-down motion in response to human presence — turning leftover acrylic scraps into something interactive and worth a second look.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">User Research</span>
+                            <span class="tech-tag">Prototyping</span>
+                            <span class="tech-tag">Iterative Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://youtu.be/TU5sPsmz9Z8" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-youtube"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-laptop"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Buddy</h3>
+                        <p>Social isolation among the elderly is a growing concern — and most existing tools aren't built with them in mind. Buddy is a desktop application designed to bridge that gap, offering elderly users a simple, accessible interface to request help from volunteers, stay mentally active through mini-games, and connect directly with volunteers via a built-in chat. Volunteers get their own dashboard to accept or reject requests in real time, with all data synced through local JSON storage. Built with Python and Tkinter, the app was designed to feel like a phone application — fixed window size, large buttons, and minimal friction — so it works for users with little to no tech experience.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tkinter</span>
+                            <span class="tech-tag">JSON</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://youtu.be/jBkHPe1QVFs" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-youtube"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-search"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Digital Forensics Case Study Generator</h3>
+                        <p>Setting up a digital forensics case study typically means manually modifying files and imaging them in a separate virtual machine — a process that's tedious and risks not being forensically sound. This web application simplifies that by giving users a controlled environment to build their own case studies from scratch. Users can apply built-in anti-forensics techniques to their evidence files and generate forensic images in a forensically sound manner, all within a single platform. Built with Python and Flask, the tool is designed for educational use — making forensics experimentation more accessible without compromising methodology.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">Steganography</span>
+                            <span class="tech-tag">Hybrid Encryption</span>
+                            <span class="tech-tag">Metadata Manipulation</span>
+                            <span class="tech-tag">GitHub</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=8QE12Q_Lwvc" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-youtube"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="images/mac.jpg" alt="Malware Analysis Centre">
+                    </div>
+                    <div class="experience-content">
+                        <h3>Temasek Polytechnic – Malware Analysis Centre</h3>
+                        <h4>Student Intern | Apr 2023 – Dec 2023</h4>
+                        <p>Worked in a structured SOC environment analysing and triaging malware samples using static and dynamic analysis techniques. Supported Tier 1 & 2 operations during high-alert periods, which sharpened my ability to stay focused, make quick decisions, and collaborate under pressure. Also attended industry workshops by MINDEF and GovTech, building awareness of real-world threat landscapes.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="images/zoomoov.jpg" alt="Zoomoov">
+                    </div>
+                    <div class="experience-content">
+                        <h3>Zoomoov</h3>
+                        <h4>Customer Service Ambassador | Dec 2020 – Mar 2021</h4>
+                        <p>Delivered bilingual customer service, handled financial transactions, and managed customer disputes in a busy retail environment — an early lesson in communication, adaptability, and staying composed when things get hectic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificates-grid">
+                <div class="certificates-card">
+                    <div class="certificates-image">
+                        <img src="images/zscaler.png" alt="Zero Trust Certified Associate by Zscaler">
+                    </div>
+                </div>
+                <div class="certificates-card">
+                    <div class="certificates-image">
+                        <img src="images/aiEthics.png" alt="AI & Ethics Governance by Singapore Computer Society">
+                    </div>
+                </div>
+                <div class="certificates-card">
+                    <div class="certificates-image">
+                        <img src="images/sentinels.png" alt="Sentinel Programme Workshop by MINDEF">
+                    </div>
+                </div>
+                <div class="certificates-card">
+                    <div class="certificates-image">
+                        <img src="images/brainhack.jpeg" alt="Brainhack Certificate by DSTA">
+                    </div>
+                </div>
+                <div class="certificates-card">
+                    <div class="certificates-image">
+                        <img src="images/cpr.png" alt="CPR & AED Certificate">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overseas Programmes Section -->
+    <section id="overseas" class="overseas">
+        <div class="container">
+            <h2 class="section-title">Overseas Programmes</h2>
+            <div class="overseas-grid">
+                <div class="overseas-card">
+                    <div class="overseas-image">
+                        <img src="images/mahidolUni.jpg" alt="Mahidol University">
+                        <img src="images/thai.jpg" alt="Thailand">
+                    </div>
+                    <div class="overseas-content">
+                        <h3>SUTD Global Exploration Opportunities (GEO) – Mahidol University, Thailand</h3>
+                        <h4>Sep 2025 &nbsp;·&nbsp; 11 days</h4>
+                        <p>An overseas immersion programme engaging in industry visits, university exchanges, and experiential activities centred around innovation, entrepreneurship, sustainability, Design and AI.</p>
+                    </div>
+                </div>
+                <div class="overseas-card">
+                    <div class="overseas-image">
+                        <img src="images/chongqingUni.jpg" alt="Chongqing University">
+                        <img src="images/hongyadong.jpg" alt="Chongqing">
+                    </div>
+                    <div class="overseas-content">
+                        <h3>SUTD Global Exploration Opportunities (GEO) – Chongqing University, China</h3>
+                        <h4>Aug 2025 &nbsp;·&nbsp; 7 days</h4>
+                        <p>An overseas immersion programme exploring innovation and design thinking through industry and university engagements in China.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CCA Section -->
+    <section id="cca" class="cca">
+        <div class="container">
+            <h2 class="section-title">CCA</h2>
+            <div class="cca-grid">
+                <div class="cca-card">
+                    <div class="cca-image">
+                        <img src="images/funktion.jpg" alt="FUNKtion Club">
+                    </div>
+                    <div class="cca-content">
+                        <h3>FUNKtion Club (SUTD)</h3>
+
+                        <h4><i>Performer &amp; Logistics</i>, SUTD Open House 2026</h4>
+                        <p>Performed and took charge of expense tracking and costume/clothing logistics — coordinating significant behind-the-scenes groundwork to ensure smooth event execution.</p>
+
+                        <h4><i>Finance Coordinator</i>, Winter Camp 2026 | Jan 2026</h4>
+                        <p>Coordinated expense tracking for the camp and managed payments to external coaches.</p>
+
+                        <h4><i>Performer</i>, SMU Productions "Rotten Potatoes" | Jul 2025</h4>
+                        <p>Performed at an inter-university production hosted by SMU.</p>
+
+                        <h4><i>Co-Organiser</i>, Internal Battle Vol.7 | Jul 2025</h4>
+                        <p>Co-organised FUNKtion Club's internal dance battle, handling event logistics and coordination.</p>
+
+                        <h4><i>Performer</i>, SUTD Open House 2025 | Feb 2025</h4>
+                        <p>Represented the club at SUTD's annual open house as a performer.</p>
+
+                        <h4><i>Treasurer</i> | Jan 2024 – Mar 2025</h4>
+                        <p>Managed a mid-four-figure annual budget for club events, processing reimbursements and reporting to SUTD finance. Coordinated logistics for 7 events attended by 50 members.</p>
+                    </div>
+                </div>
+
+                <div class="cca-card">
+                    <div class="cca-image">
+                        <img src="images/cdfsig.jpeg" alt="CDF Student Interest Group">
+                    </div>
+                    <div class="cca-content">
+                        <h3>CDF Student Interest Group (Temasek Polytechnic)</h3>
+                        <h4><i>Assistant Honorary Secretary of AiSP</i> | Jan 2022 – Dec 2023</h4>
+                        <p>Coordinated sub-committee logistics for club bonding and open house events. Maintained administrative records and meeting minutes for a 20-member group.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-content">
+                        <h4>Currently juggling a busy schedule, but always open to meaningful connections.</h4>
+                        <div class="contact-buttons">
+                            <a class="btn btn-gmail"
+                                href="https://mail.google.com/mail/?view=cm&to=wenxin.sia04@gmail.com&su=Portfolio%20Enquiry&body=Hi%20Wen%20Xin%2C"
+                                target="_blank" rel="noopener">
+                                <i class="fa-solid fa-envelope"></i> Email via Gmail
+                            </a>
+                            <a class="btn btn-outlook"
+                                href="https://outlook.office.com/mail/deeplink/compose?to=wenxin.sia04%40gmail.com&subject=Portfolio%20Enquiry&body=Hi%20Wen%20Xin%2C"
+                                target="_blank" rel="noopener">
+                                <i class="fa-solid fa-paper-plane"></i> Email via Outlook
+                            </a>
+                            <a class="btn btn-neutral"
+                                href="mailto:wenxin.sia04@gmail.com?subject=Portfolio%20Enquiry&body=Hi%20Wen%20Xin%2C">
+                                <i class="fa-regular fa-envelope"></i> Default Email App
+                            </a>
+                        </div>
+                        <a class="contact-linkedin" href="https://www.linkedin.com/in/wen-xin-sia-7a9aa9217/" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Wen Xin. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+
+</body>
+</html>
