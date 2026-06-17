@@ -433,6 +433,11 @@ section {
     color: #1d4ed8;
 }
 
+/* AWARDS & COMPETITIONS */
+.awards {
+    background: var(--bg-color);
+}
+
 /* WORK EXPERIENCE */
 
 .experience {
